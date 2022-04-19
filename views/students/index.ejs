@@ -1,0 +1,12 @@
+<body>
+    <h1>Students</h1>
+    <ul>
+    <% students.forEach(function(s) { %>
+        <li>
+        <%= s.student %>
+            - 
+        <%= s.location %>
+        </li>
+    <% }); %>
+    </ul>
+</body>
